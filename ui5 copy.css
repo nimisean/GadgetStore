@@ -1,0 +1,448 @@
+.mainpanel{
+	 
+      height:1200px;
+      width:100%;
+      
+      
+	  margin-top:0px;
+      overflow: hidden;
+}
+.navbar ul {
+	padding-top:5px;
+}
+.navbar li {
+  display: inline;
+  margin :30px;
+}
+a.navigation:link, a.navigation:visited {
+    font-family:'Roboto', sans-serif;
+    font-size: 1.2rem;
+    font-color: white;
+	color: #e2e2e2;
+	padding:7px;	
+	padding-bottom:0px;
+    text-transform: uppercase;
+    text-decoration: none;
+    height: 112px;
+    -webkit-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+    -ms-transition: all 0.2s;
+    -o-transition: all 0.2s;
+    transition: all 0.2s;
+}
+ a.navigation:hover, .navigation:active {
+    
+   	border-bottom: 3px solid #FFD700;
+	
+}
+
+
+.active{
+	
+
+   	border-bottom: 3px solid #FFD700;	
+}
+.mypic{
+	position:absolute;
+	width:200px;
+	height:190px;
+	background-image:url('images/verify.jpg');
+	background-repeat:no-repeat;
+    background-size: cover;
+	margin-left:500px;
+	margin-top:90px;
+	border-radius:100%;
+}
+.myname{
+	position:absolute;
+	padding-top:15px;
+	padding-left:500px;
+	padding-right:100px;
+	font-size:50px;
+	color:white;
+}
+.balance h1{
+	
+	position:absolute;
+	padding-top:259px;
+	padding-left:530px;
+	padding-right:100px;
+	font-size:30px;
+	color:white;
+}
+.mybalance h1{
+	
+	position:absolute;
+	padding-top:200px;
+	padding-left:493px;
+	padding-right:80px;
+	font-size:130px;
+	color:white;
+}
+.panel2{
+	position:absolute;
+	margin-top:550px;
+	height:550px;
+	width:100%;
+	background-color:#EEE0E5;
+	
+}
+.panel2 h1{
+	font-size:70px;
+	margin-right:10px;
+	color:#EEC900;
+}
+.panel2 h2{
+	font-size:40px;
+	margin-right:25px;
+}
+.wins{
+	position:absolute;
+	margin-left:140px;
+	font-size:45px;
+	color:green;
+}	
+
+.draws{
+	position:absolute;
+	margin-left:520px;
+    font-size:45px;
+	color:#33A1C9;
+	
+}
+.losses{
+	position:absolute;
+	margin-left:920px;
+	font-size:45px;
+	color:red;
+}
+.wins-numbers{
+	margin-top:50px;
+	position:absolute;
+	margin-left:175px;
+	font-size:45px;
+}	
+
+.draws-numbers{
+	margin-top:50px;
+	position:absolute;
+	margin-left:600px;
+	font-size:45px;
+	
+}
+.losses-numbers{
+	margin-top:50px;
+	position:absolute;
+	margin-left:1000px;
+	font-size:45px;
+}
+.btn-2{
+	position:relative;
+	height:50px;
+	width:100px;
+	background-color:red;
+	margin-left:980px;
+	border-radius:6px;
+	
+	
+}
+.btn-3{
+	position:relative;
+	height:50px;
+	width:100px;
+	background-color:red;
+	margin-left:580px;
+	margin-bottom:100px;
+	border-radius:6px;
+}
+.btn-4{
+	position:absolute;
+	margin-bottom:100px;
+	height:50px;
+	width:100px;
+	background-color:red;
+	margin-left:160px;
+	border-radius:6px;
+}
+.buttons{
+	margin-top:200px;
+	position:absolute;
+	height:100px;
+	width:100%;
+	
+}
+.result{
+	position:absolute;
+	width:100%;
+	height:550px;
+	top:550px;
+	margin-right:900px;
+
+	
+}
+
+.userpic2{
+	position:absolute;
+	width:200px;
+	height:200px;
+	margin-left:470px;
+	margin-top:-50px;
+	
+}
+
+.competetion_id{
+	position:absolute;
+	margin-left:50px;
+	padding-bottom:200px;
+	font-size:25px;
+	margin-top:105px;
+}
+.userpic2 img{
+	position:absolute;
+	margin-top:50px;
+	width:400px;
+	height:400px;
+	border-radius:100%;
+	margin-bottom:30px;
+}
+.amount{
+
+	position:absolute;
+	margin-left:650px;
+}
+.price{
+	position:absolute;
+	padding-top:5px;
+	padding-bottom:5px;
+	margin-top:-140px;
+	border-radius:5px;
+	width:50px;
+	height:35px;
+}
+
+#send{
+	position:absolute;
+	margin-left:80px;
+	margin-top:-130px;
+	background:black;
+	border-radius:5px;
+}
+
+.games{
+	
+	position:absolute;
+	margin-left:250px;
+	margin-top:-70px;
+	margin-right:50px;
+	width:200px;
+	height:35px;
+	background:grey;
+	border-radius:5px;
+	margin-top:-80px;
+
+}
+.consoles{
+	position:absolute;
+	margin-top:-70px;
+	margin-left:650px;
+	width:200px;
+	height:35px;
+	background:red;
+	margin-top:-80px;
+	border-radius:5px;
+
+}
+.sidebars{
+	position:absolute;
+	height:900px;
+	width:325px;
+	background-color:red;
+	margin-top:550px;
+	margin-left:900px;
+	
+}
+.nav{
+	margin-top:160px;
+	padding:100px;
+	
+}
+.sub1{
+	position:absolute;
+	margin-top:-80px;
+	margin-left:1000px;
+	height:40px;
+	width:100px;
+	background-color:green;
+	border-radius:6px;
+	
+}
+.matchpanel{
+	position:absolute;
+	margin-top:150px;
+	width:100%;
+	height:600px;
+	border-radius:5px;
+}
+.Myname{
+	position:absolute;
+	font-size:50px;
+	color:black;
+	margin-top:100px;
+	margin-left:-500px;
+	
+}
+.opp{
+	position:absolute;
+	font-size:50px;
+	color:black;
+    margin-top:110px;
+	margin-left:350px;
+	
+}
+.notice{
+	font-size:20px;
+	color:Green;
+	margin-left:600px;
+	margin-top:20px;
+	height:50px;
+	width:150px;
+	border:5px solid black;
+	
+}
+.notice h2{
+	margin-top:5px;
+	margin-left:15px;
+}
+.vs{
+	position:absolute;
+	margin-left:620px;
+	margin-top:10px;
+	color:blue;
+	font-size:50px;
+}
+.score1{
+position:absolute;	
+margin-top:300px;
+margin-left:-450px;
+width:100px;
+height:50px;
+}
+.score2{
+position:absolute;	
+margin-top:300px;
+margin-left:420px;
+width:100px;
+height:50px;
+
+}
+.score1 formfield,.score2 formfield{
+	text-align:center;
+}
+#send_result{
+position:absolute;
+margin-top:400px;
+margin-left:-75px;
+background-color:green;	
+height:50px;
+width:150px;
+border-radius:4px;
+}
+.users_name{
+	position:absolute;
+	font-size:45px;
+	color:red;
+	margin-top:450px;
+	margin-left:570px;
+}
+.stats{
+	position:absolute;
+	top:600px;
+	height:200px;
+    width:30%;
+	margin-top:200px;
+	margin-left:100px;
+    background-color:red;	
+}
+
+.allmatches{
+    position:absolute;
+	top:600px;
+	height:100px;
+    width:15%;
+	margin-top:50px;
+	margin-left:580px;
+    background-color:red;
+}
+.prize{
+    position:absolute;
+	top:600px;
+	height:100px;
+    width:15%;
+	margin-top:50px;
+	margin-left:560px;
+    background-color:red;
+}
+.reviews{
+	position:absolute;
+	top:600px;
+	height:200px;
+	margin-top:200px;
+    width:30%;
+	margin-left:840px;
+    background-color:blue;	
+}
+#send{
+	position:absolute;
+	height:50px;
+	width:100px;
+	background-color:red;
+	margin-left:580px;
+	margin-top:-85px;
+	margin-bottom:100px;
+	border-radius:6px;
+	
+}
+#transfer{
+    position:aboslute;
+	height:50px;
+	width:100px;
+	margin-left:735px;
+	margin-top:-85px;
+	padding-top:-100px;
+	background-color:blue;
+	border-radius:6px;
+	float:left;
+}
+.win_ratio{
+	color:blue;
+	font-size:100px;
+	margin-left:105px;
+	margin-top:35px;
+	
+}
+.all_matches{
+	position:absolute;
+	color:blue;
+	font-size:80px;
+	margin-left:55px;
+	margin-top:-20px;
+	padding-top:25px;
+	
+}
+.no_matches{
+	position:absolute;
+	color:blue;
+	font-size:40px;
+	margin-left:35px;
+	padding:25px;
+	
+}
+.notice{
+	position:absolute;
+	background-color:grey;
+	margin-top:245px;
+	margin-left:960px;
+	height:350px;
+	width:50px;
+	
+}
